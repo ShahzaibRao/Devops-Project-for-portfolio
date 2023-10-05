@@ -1,4 +1,4 @@
-FROM  ubuntu
+FROM ubuntu:latest
 MAINTAINER raoshaizab@gmail.com
 RUN apt-get update -y && apt-get install -y apache2 \
  zip\
