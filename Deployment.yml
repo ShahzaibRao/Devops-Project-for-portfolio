@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: mrdevops
-          image: raoshahzaib/pipeline-demo-new
+          image: raoshahzaib/pipeline-demo-new:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
